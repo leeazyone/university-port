@@ -6,3 +6,14 @@
   padding: 30px;
   margin-top: auto;
 }
+
+.centered-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-image {
+  display: block;
+}

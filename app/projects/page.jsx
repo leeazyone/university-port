@@ -17,17 +17,31 @@ const projects = () => {
         </a>
         <br></br>
         <br></br>
-        <img src='/img/teampro.png' alt='team' width={500}></img>
+        <div className='centered-image-container'>
+          <img
+            src='/img/teampro.png'
+            alt='team'
+            width={500}
+            className='centered-image'
+          ></img>
+        </div>
+
         <a
           href='https://www.notion.so/02-3b1b35e89847474b8b68c1825e4e8083'
           alt='team'
         >
           'Shopping mall project'
         </a>
-        <br></br>
-        <br></br>
-        <br></br>
-        <img src='/img/1234.png' alt='pro' width={500}></img>
+
+        <div className='centered-image-container'>
+          <img
+            src='/img/1234.png'
+            alt='pro'
+            width={500}
+            className='centered-image'
+          ></img>
+        </div>
+
         <a href='https://github.com/leeazyone/webdemo_site' alt='manual'>
           'manual page project'
         </a>

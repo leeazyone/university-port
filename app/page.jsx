@@ -11,7 +11,15 @@ export default function Home() {
       <p className='mb-8 font-mono text-center'>
         This is a web page that collects my web projects
       </p>
-      <img src='/img/me.png' alt='jiwonface' width={250} />
+      <div className='centered-image-container'>
+        <Image
+          src='/img/me.png'
+          alt='me'
+          width={300}
+          height={200}
+          className='centered-image'
+        />
+      </div>
     </>
   )
 }

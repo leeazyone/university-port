@@ -5,8 +5,13 @@ const contact = () => {
   return (
     <>
       <Header></Header>
-      <div className='font-mono text-center'>
-        <img src='/img/me.png' alt='myface' width={250}></img>
+      <div className='centered-image-container'>
+        <img
+          src='/img/me.png'
+          alt='myface'
+          width={250}
+          className='centered-image'
+        ></img>
         <p></p>
         <ul>
           <li>
@@ -23,8 +28,6 @@ const contact = () => {
           </li>
         </ul>
       </div>
-      <br></br>
-      <br></br>
       <div className='font-mono text-center'>
         <p>If you want to contact me, fill out the from below and sent it💬</p>
         <br></br>
