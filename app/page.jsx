@@ -15,8 +15,8 @@ export default function Home() {
         <Image
           src='/img/me.png'
           alt='me'
-          width={300}
-          height={200}
+          width={400}
+          height={300}
           className='centered-image'
         />
       </div>
